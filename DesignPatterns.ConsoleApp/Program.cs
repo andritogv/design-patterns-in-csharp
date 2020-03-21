@@ -1,4 +1,5 @@
-﻿using DesignPatterns.ConsoleApp.SingletonPattern;
+﻿using DesignPatterns.ConsoleApp.PrototypePattern;
+using DesignPatterns.ConsoleApp.SingletonPattern;
 using static System.Console;
 
 namespace DesignPatterns.ConsoleApp
@@ -8,6 +9,7 @@ namespace DesignPatterns.ConsoleApp
         public static void Main(string[] args)
         {
             SingletonDemo.DoDemo();
+            PrototypeDemo.DoDemo();
 
             ReadKey();
         }
